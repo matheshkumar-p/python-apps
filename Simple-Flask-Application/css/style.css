@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calc-container{
+    min-width: 50%;
+    height:20rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+form{
+    min-width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+input[type="text"]{
+    width:13rem;
+}
+
+input[type="text"],select{
+    margin-left: 1rem;
+    padding: .5rem;
+}
+
+select{
+    width:13.5rem;
+}
+
+.btn{
+    min-width: inherit;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn button{
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+.result-container{
+    min-width: 50%;
+    min-height: 15vh;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+    margin-top: 1rem;
+}
+
+.result-container h1{
+    text-align: center;
+    margin: .5rem;
+}
